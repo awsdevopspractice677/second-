@@ -1,0 +1,6 @@
+To allow a port in Linux, you can use the following methods12345:
+Use `sudo ufw allow [port number]` to open a port (e.g., SSH port 22).
+Use `nc` command to open a port (e.g., `nc -lk 1234`).
+Use Python code to open a port.
+For CentOS and other systems with firewalld, use `firewall-cmd` to open a specific port.
+Use `netstat` or `ss` command to check listening sockets and port numbers.
